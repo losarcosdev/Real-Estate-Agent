@@ -1,0 +1,22 @@
+* {
+  font-family: Helvetica;
+  scroll-behavior: smooth;
+}
+
+.gradient-title {
+  background-image: linear-gradient(
+    to right,
+    #0042a4,
+    #00429b,
+    #004193,
+    #05408a,
+    #0c3f81
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: rgb(223, 115, 96);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
